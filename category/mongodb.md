@@ -1,9 +1,9 @@
 ---
 layout: category
-title: algorithm
-# category : algorithm
+title: mongodb  
+# category : mongodb
 pagination: 
   enabled: true
-  category: algorithm
+  category: mongodb
   permalink: /:num/
 ---

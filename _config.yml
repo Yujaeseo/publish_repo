@@ -2,8 +2,8 @@
 #markdown:         redcarpet
 markdown: kramdown
 pygments:         true
-# gems:
-#   - jekyll-paginate-v2
+gems:
+  - jekyll-paginate-v2
 
 
 # Permalinks
@@ -31,19 +31,19 @@ defaults:
       layout: "category"
  
 #paginate-v2
-# pagination:
-#   enabled: true
-#   per_page: 2
-#   permalink: '/page/:num/'
-#   # title_suffix: ' - page :num'
-#   # limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/:num/'
+  # title_suffix: ' - page :num'
+  # limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # gems:
 #   - jekyll-paginate
-paginate: 2
-paginate_path: /page/:num
+# paginate: 2
+# paginate_path: /page/:num
 
 # Custom vars
 version:          1.0.0
